@@ -13,7 +13,7 @@
 /* sidebar section */
 
 .sidebar{
-    background-color: #fca5a5;
+    background-color: #fda4af;
     grid-row: 1/3;
     display: grid;
     grid-template-rows: 10% 30% 1fr;
@@ -69,10 +69,18 @@
 
 .search input{
     border-radius: 20px;
-    height: 20px;
+    height: 30px;
     width: 60%;
     background-color: #fee2e2;
     border: none;
+    padding-left: 10px;
+
+}
+
+.bottom-left{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 
 }
 
@@ -98,6 +106,8 @@
     background-color: #fca5a5;
     padding: 5px;
 }
+
+
 
 .content{
     grid-column: 2/5;
