@@ -13,12 +13,12 @@
 /* sidebar section */
 
 .sidebar{
-    background-color: palevioletred;
+    background-color: #fca5a5;
     grid-row: 1/3;
     display: grid;
-    grid-template-rows: 15% 30% 1fr;
-    padding-top: 5px;
+    grid-template-rows: 10% 30% 1fr;
     padding-left: 25px;
+    gap: 10px;
 }
 
 .sidebar-title{
@@ -55,12 +55,33 @@
 .header{
     grid-column: 2/5;
     grid-row: 1/2;
-    background-color: gray;
+    background-color: #f4f4f5;
 
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 3fr 1fr;
 
+}
 
+.top-right{
+    display: grid;
+    grid-template-columns: 15% 20% 1fr;
+    align-items: center;
+
+}
+.cat{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fca5a5;
+    padding: 5px;
+}
+
+.big-cat{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fca5a5;
+    padding: 5px;
 }
 
 .content{
@@ -70,3 +91,4 @@
 
 
 }
+
